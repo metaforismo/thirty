@@ -1,0 +1,12 @@
+{
+  "name": "thirty",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pnpm --filter @thirty/showcase start",
+    "ios": "pnpm --filter @thirty/showcase ios",
+    "android": "pnpm --filter @thirty/showcase android",
+    "web": "pnpm --filter @thirty/showcase web",
+    "typecheck": "pnpm -r --if-present run typecheck"
+  }
+}

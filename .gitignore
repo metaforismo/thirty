@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native build output
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+*.xcworkspace/xcuserdata/
+
+# tooling
+.turbo/
+coverage/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
