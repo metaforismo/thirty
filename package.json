@@ -7,6 +7,6 @@
     "ios": "pnpm --filter @thirty/showcase ios",
     "android": "pnpm --filter @thirty/showcase android",
     "web": "pnpm --filter @thirty/showcase web",
-    "typecheck": "pnpm -r --if-present typecheck"
+    "typecheck": "pnpm -r --if-present run typecheck"
   }
 }
